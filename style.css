@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Roboto Slab', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: 'Roboto Slab',  cursive;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.diseñoBienvenida{
+
+    display: table-cell;
+    vertical-align: middle;
+}
+/*Clase 60 modificar los CSS del menu
+2. Modificar las propiedades en CSS
+    position: fixed: para que quede fijo y visible todo el tiempo
+    background: white: establecer fondo
+    width: para que abarque toda la pantalla
+    margin-top:  para que la barra del navegador comience desde la parte superior sin ningún margen.
+    top: mantener el menú pegado a la parte superior de la pantalla.
+    z-index: superposición o sobreposición de elementos html.*/
+.menu{
+    
+    list-style: none;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+/* 3. Actualizar las propiedades del menú
+    display: esto ayudará a que todos los enlaces estén en la misma línea
+    padding-left: agregar relleno al elemento
+    font-family: tipo de letra
+    font-size: tamaño de la letra */
+.links{
+    display: inline;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+/* 4. Agrega la propiedad hover menú
+        hover::::: cuando se acerca el mouse a un elemento del menú
+        */
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+/* 5. Añadir estilo el elemento ancho de la sección textos
+    !important: propiedades aplicadas a la etiqueta anchor en la sección de textos y no se aplican las demás propiedades*/
+#writings a {
+    text-decoration: underline !important;
+    color: green !important;
+}
+
+#contact{
+    background:lightgray;
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
